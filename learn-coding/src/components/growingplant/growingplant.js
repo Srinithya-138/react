@@ -1,9 +1,6 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./growingplant.css";
-
-
-
-const Growingplant = (plantData) => {
+const Growingplant = ({plantData}) => {
   // // console.log('props',props)
   // // console.log(props.plantName)
 
@@ -11,7 +8,6 @@ const Growingplant = (plantData) => {
   // //   name:'sunflower',
   // //   size:10,
   // //   famil:'plants',
-
   // }
 //   const name={
 //     first:'sri',
@@ -19,30 +15,30 @@ const Growingplant = (plantData) => {
 //   }
 // const {first,last}=name
 // console.log(name.first,name.last,first,last,)
- 
 //   console.log(name.first)
 //   console.log(name.last)
 //  const{plantData}=props
-let{name,size}=plantData
+let {name,size}=plantData
+const [dynamicsize,setdynamicsize]=useState(size)
+useEffect(()=>{
+console.log('her')
+  },[])
+  useEffect(()=>{
+    console.log('dynamic size changed:',dynamicsize)
+    if(dynamicsize>100){
+      alert('plant grown successfully')
+    }
+      },[dynamicsize])
   const bigger=()=>{
-    console.log("before",size)
-    size=size+20
-    console.log("clicked",size)
+    setdynamicsize(dynamicsize+30)
   }
   return (
-   
-       
-      <div className="plant">
-        <h1>{plantData.name}</h1>
-        <div className="txt">I am growing a <span style={{fontSize:`${plantData.size}px`}}>{plantData.name} </span>plant </div>
-        {/* <div className="logo">plant3</div> */}
+       <div className="plant">
+        <h1>{name}</h1>
+        <div className="txt">I am growing a <span style={{fontSize:`${dynamicsize}px`}}>{name} </span>plant </div>
         <button onClick={bigger}>give water</button>
       </div>
-  
   );
-  
-  
 }
-
 export default Growingplant
 
