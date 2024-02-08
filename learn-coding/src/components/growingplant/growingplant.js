@@ -19,6 +19,9 @@ const Growingplant = ({plantData}) => {
 //   console.log(name.last)
 //  const{plantData}=props
 let {name,size}=plantData
+// const data=plantData
+// console.log(plantData)
+// console.log(plantData)
 const [dynamicsize,setdynamicsize]=useState(size)
 useEffect(()=>{
 console.log('her')
@@ -38,6 +41,10 @@ console.log('her')
         <div className="txt">I am growing a <span style={{fontSize:`${dynamicsize}px`}}>{name} </span>plant </div>
         <button onClick={bigger}>give water</button>
       </div>
+      // <div>
+      //   <h1>{plantData}</h1>
+       
+      // </div>
   );
 }
 export default Growingplant

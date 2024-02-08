@@ -11,12 +11,13 @@ const Home = () => {
         name:'jasmine',
         size:30,
     }
-// const data=12;
+// const data="sri";    
   return (
     <div>
       <Growingplant plantData= {plantData1}/>
       <Growingplant plantData={plantData2}/>
-
+      {/* <Growingplant plantData={data}/> */}
+       
       
     </div>
   )
