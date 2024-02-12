@@ -16,6 +16,8 @@ const Home = () => {
     <div>
       <Growingplant plantData= {plantData1}/>
       <Growingplant plantData={plantData2}/>
+      {/* <Growingplant plantData/> */}
+
       {/* <Growingplant plantData={data}/> */}
        
       

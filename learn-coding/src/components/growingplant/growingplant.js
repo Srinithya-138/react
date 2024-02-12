@@ -18,10 +18,17 @@ const Growingplant = ({plantData}) => {
 //   console.log(name.first)
 //   console.log(name.last)
 //  const{plantData}=props
+
 let {name,size}=plantData
+
 // const data=plantData
 // console.log(plantData)
 // console.log(plantData)
+// const defaultData={
+//   name:'no name is provided',
+//   icon:'no icon is provided',
+//   size:'40',
+// }
 const [dynamicsize,setdynamicsize]=useState(size)
 useEffect(()=>{
 console.log('her')
