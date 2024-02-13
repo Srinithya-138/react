@@ -23,7 +23,9 @@
   }
   
   .aboutBottom p {
-    width: 1200px;
+    /* width: 1200px; */
+    margin-top: 20px;
+    text-align: center;
   }
   
   .about .aboutBottom h1 {
@@ -33,5 +35,5 @@
     height: 30px;
     display: flex;
     justify-content: center;
-    transform: translateY(-40px);
+    transform: translateY(-50px);
   }

@@ -6,7 +6,7 @@
   
    .leftSide {
     height: 100%;
-    width: 50vw !important;
+    width: 50vw ;
     flex: 50%;
     background-position: center;
     background-repeat: no-repeat;
