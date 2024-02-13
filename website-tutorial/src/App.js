@@ -7,6 +7,9 @@ import Menu from "./pages/Menu";
 import About from "./pages/about";
 import Contact from "./pages/Contact";
 import "./styles/Footer.css"
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/js/bootstrap';
 function App() {
   return (
     <div className="App">
