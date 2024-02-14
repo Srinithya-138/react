@@ -5,7 +5,7 @@ import "../styles/Menu.css";
 
 const Menu = () => {
   return (
-    <div className="menu container">
+    <div className="menu container ">
       <h1 className="menuTitle">Our Menu</h1>
       <div className="menuList ">
         {/* {MenuList.map((menuItem,key)=>{
