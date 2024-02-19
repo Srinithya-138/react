@@ -23,16 +23,16 @@ const Header = () => {
             <p className="fw-bold">India</p>
           </div>
         </div>
-        {/* <div className="nav-search">
+        <div className="nav-search d-flex mt-1">
           <select className="search-select">
             <option>All</option>
-            <input placeholder="Search Amazon" className="search-input">
+            {/* <label for ="search-input">Search Amazon.in</label> */}
+            <input placeholder="Search Amazon" className="search-input "/>
               <div className="search-icon">
                 <FaSearch />
               </div>
-            </input>
           </select>
-        </div> */}
+        </div>
       </div>
     </div>
   );

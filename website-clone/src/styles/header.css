@@ -28,3 +28,10 @@
 .nav-address{
 align-items: center;
 }
+.nav-search{
+    height: 50px;
+
+}
+.search-input{
+    width: 40px;
+}
