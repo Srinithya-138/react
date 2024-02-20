@@ -1,0 +1,12 @@
+.footer{
+    text-align: center;
+}
+.first-button{
+    padding:0px 30px;
+    background-color: orange;
+}
+button{
+    padding:15px 10px;
+    background-color: #0f11118a;
+    color: white;
+}

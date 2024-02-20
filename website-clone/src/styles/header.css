@@ -7,9 +7,11 @@
     width: 100%;
     background-color: #0f1111;
     color: white;
+    cursor: pointer;
     /* flex-wrap: wrap; */
-
 }
+
+
 .navbar-up{
     display: flex;
     flex: wrap;
