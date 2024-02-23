@@ -4,11 +4,11 @@ import "../styles/middle.css"
 const Middle = () => {
   return (
     <div>
-      <div className="content container mt-5">
+      <div className="content  mt-5">
         <h1 className="middleHeading d-flex justify-content-center ">
           Fashions
         </h1>
-        <div className="contentList ">
+        <div className="contentList container">
           {ContentList.map((contentItem) => (
             // <div className="contentItem">
             //     <h1>{contentItem.heading}</h1>

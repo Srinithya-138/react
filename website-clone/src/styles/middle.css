@@ -1,6 +1,7 @@
 
 .contentList{
-       width: 70vw;
+       cursor: pointer;
+       /* width: 90vw; */
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;
@@ -9,7 +10,7 @@
 .contentItem{
     padding: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    border: 2px solid #acaaaa;
+    /* border: 2px solid #acaaaa; */
     border-radius: 15px;
 }
 .image-content{
