@@ -1,8 +1,10 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import Button from 'react-bootstrap/Button';
+// import Form from 'react-bootstrap/Form';
+import "./node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "bootstrap/dist/js/bootstrap";
 const AddTask = () => {
   return (
